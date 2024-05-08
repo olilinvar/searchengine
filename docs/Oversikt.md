@@ -1,0 +1,14 @@
+### TODO
+- [ ] Prosjektbeskrivelse
+- [ ] Webserver
+- [ ] Database
+- [ ] Nettverk
+- [ ] FAQ på nettsiden
+- [ ] Opplæringsmateriale
+- [ ] Teknisk dokumentasjon
+- [ ] Lover og Regler
+- [ ] Risikovurdering
+- [ ] Prosjektrapport
+- [ ] Dokumentere backuprutiner
+- [ ] Sette opp Indexering i søkemotoren
+- [ ] Sette opp Filstruktur
