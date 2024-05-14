@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>results</title>
+    <title>Search Results</title>
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-    <h1>{{variabel}}</h1>
+    <div class="search-container">
+        <h1>Search Results for "{{ search_query }}"</h1>
+        <a href="/"><button id="back-btn">GO BACK</button></a>
+        <ul class="search-results">
+            {% for entry in entries %}
+                <li>
+                    <h2>{{ entry[1] }}</h2>
+                    <p>{{ entry[2] }}</p>
+                    <p><a href="{{ entry[0] }}">{{ entry[0] }}</a></p>
+                    <p>{{ entry[3] }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 </body>
 </html>

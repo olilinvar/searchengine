@@ -1,6 +1,6 @@
 ### TODO
 - [ ] Prosjektbeskrivelse
-- [ ] Webserver
+- [x] Webserver
 - [ ] Database
 - [ ] Nettverk
 - [ ] FAQ på nettsiden
@@ -10,5 +10,7 @@
 - [ ] Risikovurdering
 - [ ] Prosjektrapport
 - [ ] Dokumentere backuprutiner
-- [ ] Sette opp Indexering i søkemotoren
-- [ ] Sette opp Filstruktur
+Hoste webserver på ekstern maskin
+Brukerveiledning på oppsett av løsning på annen maskin
+- [x] Sette opp Indexering i søkemotoren
+- [x] Sette opp Filstruktur
