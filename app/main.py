@@ -8,8 +8,8 @@ app.static_folder = 'static'
 try:
     web_pages_db = mysql.connector.connect(
         host="localhost",
-        user="root",
-        password="Admin",
+        user="admin",
+        password="password",
         database="web_pages_db"
     )
 
@@ -44,4 +44,4 @@ def results():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
