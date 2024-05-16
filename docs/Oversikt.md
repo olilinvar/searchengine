@@ -1,15 +1,15 @@
 ### TODO
-- [ ] Prosjektbeskrivelse
+- [x] Prosjektbeskrivelse
 - [x] Webserver
-- [ ] Database
-- [ ] Nettverk
+- [X] Database
+- [X] Nettverk?
 - [ ] FAQ på nettsiden
-- [ ] Opplæringsmateriale
-- [ ] Teknisk dokumentasjon
-- [ ] Lover og Regler
-- [ ] Risikovurdering
-- [ ] Prosjektrapport
-- [ ] Dokumentere backuprutiner
+- [X] Opplæringsmateriale
+- [X] Teknisk dokumentasjon
+- [X] Lover og Regler
+- [X] Risikovurdering
+- [X] Prosjektrapport
+- [X] Dokumentere backuprutiner
 Hoste webserver på ekstern maskin
 Brukerveiledning på oppsett av løsning på annen maskin
 - [x] Sette opp Indexering i søkemotoren
